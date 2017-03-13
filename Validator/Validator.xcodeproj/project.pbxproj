@@ -16,7 +16,7 @@
 		996600BC1DC7B68E00F7C750 /* CaseValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996600BB1DC7B68E00F7C750 /* CaseValidationPattern.swift */; };
 		996600BE1DC7B6F900F7C750 /* ContainsNumberValidationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996600BD1DC7B6F900F7C750 /* ContainsNumberValidationPattern.swift */; };
 		9967E3A71B76822E00ACAF54 /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9967E3A61B76822E00ACAF54 /* Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9967E3AE1B76822E00ACAF54 /* Validator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9967E3A31B76822E00ACAF54 /* Validator.framework */; };
+		9967E3AE1B76822E00ACAF54 /* ValidatorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9967E3A31B76822E00ACAF54 /* ValidatorKit.framework */; };
 		9967E3DE1B76829D00ACAF54 /* ValidationRuleComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9967E3D01B76829D00ACAF54 /* ValidationRuleComparison.swift */; };
 		9967E3DF1B76829D00ACAF54 /* ValidationRuleCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9967E3D11B76829D00ACAF54 /* ValidationRuleCondition.swift */; };
 		9967E3E01B76829D00ACAF54 /* ValidationRuleEquality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9967E3D21B76829D00ACAF54 /* ValidationRuleEquality.swift */; };
@@ -68,7 +68,7 @@
 		996600B91DC7B65800F7C750 /* EmailValidationPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailValidationPattern.swift; sourceTree = "<group>"; };
 		996600BB1DC7B68E00F7C750 /* CaseValidationPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseValidationPattern.swift; sourceTree = "<group>"; };
 		996600BD1DC7B6F900F7C750 /* ContainsNumberValidationPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainsNumberValidationPattern.swift; sourceTree = "<group>"; };
-		9967E3A31B76822E00ACAF54 /* Validator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9967E3A31B76822E00ACAF54 /* ValidatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValidatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9967E3A61B76822E00ACAF54 /* Validator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
 		9967E3A81B76822E00ACAF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9967E3AD1B76822E00ACAF54 /* ValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9967E3AE1B76822E00ACAF54 /* Validator.framework in Frameworks */,
+				9967E3AE1B76822E00ACAF54 /* ValidatorKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +155,7 @@
 		9967E3A41B76822E00ACAF54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9967E3A31B76822E00ACAF54 /* Validator.framework */,
+				9967E3A31B76822E00ACAF54 /* ValidatorKit.framework */,
 				9967E3AD1B76822E00ACAF54 /* ValidatorTests.xctest */,
 			);
 			name = Products;
@@ -275,9 +275,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9967E3A21B76822E00ACAF54 /* Validator */ = {
+		9967E3A21B76822E00ACAF54 /* ValidatorKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9967E3B71B76822E00ACAF54 /* Build configuration list for PBXNativeTarget "Validator" */;
+			buildConfigurationList = 9967E3B71B76822E00ACAF54 /* Build configuration list for PBXNativeTarget "ValidatorKit" */;
 			buildPhases = (
 				9967E39E1B76822E00ACAF54 /* Sources */,
 				9967E39F1B76822E00ACAF54 /* Frameworks */,
@@ -288,9 +288,9 @@
 			);
 			dependencies = (
 			);
-			name = Validator;
+			name = ValidatorKit;
 			productName = Validator;
-			productReference = 9967E3A31B76822E00ACAF54 /* Validator.framework */;
+			productReference = 9967E3A31B76822E00ACAF54 /* ValidatorKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9967E3AC1B76822E00ACAF54 /* ValidatorTests */ = {
@@ -344,7 +344,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9967E3A21B76822E00ACAF54 /* Validator */,
+				9967E3A21B76822E00ACAF54 /* ValidatorKit */,
 				9967E3AC1B76822E00ACAF54 /* ValidatorTests */,
 			);
 		};
@@ -425,7 +425,7 @@
 /* Begin PBXTargetDependency section */
 		9967E3B01B76822E00ACAF54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9967E3A21B76822E00ACAF54 /* Validator */;
+			target = 9967E3A21B76822E00ACAF54 /* ValidatorKit */;
 			targetProxy = 9967E3AF1B76822E00ACAF54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -603,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9967E3B71B76822E00ACAF54 /* Build configuration list for PBXNativeTarget "Validator" */ = {
+		9967E3B71B76822E00ACAF54 /* Build configuration list for PBXNativeTarget "ValidatorKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9967E3B81B76822E00ACAF54 /* Debug */,
